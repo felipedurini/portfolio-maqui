@@ -22,7 +22,6 @@ body {
   align-items: center;
   flex-direction: column;
   overflow: auto;
- 
   position: fixed;
 }
 #white{
@@ -53,16 +52,13 @@ body {
 
 
 .carousel-item {
-  
   height: 80vh;
-  margin: 2vh 2vh 0vh 2vh;
-
-
+  /* margin: 2vh 2vh 0vh 2vh; */
 }
 
  .carousel-item img {
     /* height: 60vh; */
-  padding: 1vh 3vh 0 0vh;
+  padding: 1vh 3vh 0 3vh;
   margin: 0 auto;
 /*   object-fit: cover; */
 } 
@@ -100,13 +96,6 @@ i{
 .orange{
     color: rgb(255, 166, 0);
 }
-
-
-
-
-
-
-
 
 
 
