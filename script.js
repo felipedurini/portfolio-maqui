@@ -1,4 +1,4 @@
-
+/* 
   // Array of image URLs to preload
 var imageUrls = [
     "imgs/DSC07452.jpeg",
@@ -49,8 +49,10 @@ var imageUrls = [
   }
   
   // Call the optimizeImages function with your array of image URLs
-  optimizeImages(imageUrls);
-  
+  optimizeImages(imageUrls); */
+
+
+
   $(document).ready(function() {
     $('.carousel').carousel();
   });

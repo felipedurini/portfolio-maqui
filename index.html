@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -15,8 +16,47 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @media screen and (max-width: 992px){
+        #black, #white {
+            width: 100%;
+            height: auto;
+            overflow: visible;
+            justify-content: flex-start;
+            align-items: stretch;
+            flex-direction: row;      
+            position: static;
+          }
+          #navbar{
+            position: fixed;
+            display: flex;
+            width: 100%;
+            z-index: 1000;
+        }
+        #container{
+            padding-top: 8vh;
+        }}
+    </style>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <h5>MARGARITA</h5>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#white">Trabajo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#black">Universidad</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Medio -->
     <div id="middle">
       <h4>ESTILISMO Y PRODUCCIÓN</h4>
@@ -31,50 +71,194 @@
           <h1>TRABAJO</h1>
           <h2>WORK</h2>
         </div>
-        <div
-          id="carouselExampleAutoplayingW"
-          class="carousel slide"
-          data-bs-ride="carousel"
-          data-bs-interval="2000"
-          data-bs-pause="hover"
-          data-bs-wrap="true"
-        >
+
+        <div id="carouselExampleAutoplayingC" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover" data-bs-wrap="true">
           <div class="carousel-inner">
+        
             <div class="carousel-item active">
-              <img src="imgs/DSC07452.jpeg" class="d-block w-100" alt="..." />
+              <img src="imgs/primer-trabajo\DSC07324.jpeg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h4>Trabajo Ejemplo</h4>
-                <p>Realizado por Maqui y Compañia</p>
+              <h4>Trabajo Ejemplo</h4>
+              <p>Realizado por Maqui y Compañia</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="imgs/DSC07512.jpeg" class="d-block w-100" alt="..." />
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\DSC07414.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
             </div>
-            <div class="carousel-item">
-              <img src="imgs/DSC07531.jpeg" class="d-block w-100" alt="..." />
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\DSC07423.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
             </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\DSC07452.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\DSC07512.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\DSC07531.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\IMG_4926.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\IMG_4957.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\IMG_4983.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\IMG_4996.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/primer-trabajo\IMG_5065.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
           </div>
-
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleAutoplayingW"
-            data-bs-slide="prev"
-          >
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingC" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleAutoplayingW"
-            data-bs-slide="next"
-          >
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingC" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+
+
+
+        <!-- Rocio -->
+
+        <div id="carouselExampleAutoplayingAB" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover" data-bs-wrap="true">
+          <div class="carousel-inner">
+        
+            <div class="carousel-item active">
+              <img src="imgs/Editorial_Rocio\IMG_4574.PNG" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+              <h4>Trabajo Ejemplo</h4>
+              <p>Realizado por Maqui y Compañia</p>
+              </div>
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial01.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial19.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial21.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial34.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial61.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistseditorial77.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/Editorial_Rocio\theartistserie06.jpeg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingAB" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingAB" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
       </div>
+
+      
 
       <!-- Derecha -->
       <div id="black">
@@ -83,68 +267,628 @@
           <h1>UNIVERSIDAD</h1>
           <h2>UNIVERSITY</h2>
         </div>
-        <div
-          id="carouselExampleAutoplayingB"
-          class="carousel slide"
-          data-bs-ride="carousel"
-          data-bs-interval="2000"
-          data-bs-pause="hover"
-          data-bs-wrap="true"
-        >
+
+          
+        <!-- astro jus -->
+
+        <div id="carouselExampleAutoplayingAC" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover" data-bs-wrap="true">
           <div class="carousel-inner">
+        
             <div class="carousel-item active">
-              <img src="imgs/DSC07452.jpeg" class="d-block w-100" alt="..." />
+              <img src="imgs/astro-jus\astrppng.png" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h4 class="orange">Trabajo Ejemplo Naranja</h4>
-                <h5 class="orange">Realizado por Maqui y Compañia</h5>
+              <h4>Astro Jus</h4>
+              <p>Realizado por Maqui y Compañia</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="imgs/DSC07512.jpeg" class="d-block w-100" alt="..." />
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1361.jpg" class="d-block w-100" alt="..." />
+              
+              
+              
+        
             </div>
-            <div class="carousel-item">
-              <img src="imgs/DSC07531.jpeg" class="d-block w-100" alt="..." />
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1374.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
             </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1387.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1389-Edit.png" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1412.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1423.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1435.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1469.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1472-Edit.png" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1482-Edit.png" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1490.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1493.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1504.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1562.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1563.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1581.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1588.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1591.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1637.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1656-Edit.png" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1667.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1669.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1681.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1690.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1695.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/astro-jus\_V4C1708.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleAutoplayingB"
-            data-bs-slide="prev"
-          >
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingAC" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleAutoplayingB"
-            data-bs-slide="next"
-          >
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingAC" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+
+
+          <!-- inspiracion 90 -->
+
+          <div id="carouselExampleAutoplayingAD" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover" data-bs-wrap="true">
+            <div class="carousel-inner">
+          
+              <div class="carousel-item active">
+                <img src="imgs/inspiracion-90\_V4C5156.jpeg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                <h4>Inspiración 90´s y actualidad</h4>
+                <p>Realizado por Maqui y Compañia</p>
+                </div>
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5158.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5218.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5351.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5477.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5492.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5545.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5637.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5667.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5718.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+              <div class="carousel-item ">
+                <img src="imgs/inspiracion-90\_V4C5909.jpeg" class="d-block w-100" alt="..." />
+          
+          
+          
+          
+              </div>
+          
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingAD" data-bs-slide="prev">  
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingAD" data-bs-slide="next">  
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        
+
+        <!-- coper -->
+
+        <div id="carouselExampleAutoplayingAE" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover" data-bs-wrap="true">
+          <div class="carousel-inner">
+        
+            <div class="carousel-item active">
+              <img src="imgs/coper\IMG_2162.JPG" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+              <h4>Coper</h4>
+              <p>Realizado por Maqui y Compañia</p>
+              </div>
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2175.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2188.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2214.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2232.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2353.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2464.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2474.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2482.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2496.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2540.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2542.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2548.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2593.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2595.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2901.jpg" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2990.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2991.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2992.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_2993.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3341.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3342.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3343.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3344.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3345.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3346.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3347.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3363.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3364.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="imgs/coper\IMG_3365.JPG" class="d-block w-100" alt="..." />
+        
+        
+        
+        
+            </div>
+        
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingAE" data-bs-slide="prev">  
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingAE" data-bs-slide="next">  
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Derecha -->
+
+
+        <footer>
+          <a href="https://www.instagram.com/" class="text-decoration-none">
+            <p class="redes">LINKEDIN</p>
+          </a>
+          <a href="mailto:felipeduri@gmail.com" class="text-decoration-none">
+            <p class="redes">MAIL</p>
+          </a>
+          <a href="https://www.instagram.com/" class="text-decoration-none">
+            <p class="redes">INSTAGRAM</p>
+          </a>
+        </footer>
       </div>
-      <footer>
-        <h6>Mis Redes</h6>
-        <a href="https://www.instagram.com/" class="text-decoration-none">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="https://www.instagram.com/" class="text-decoration-none">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a href="https://www.instagram.com/" class="text-decoration-none">
-          <i class="bi bi-linkedin"></i>
-        </a>
-      </footer>
-    </div>
+        <!-- container  -->
+      </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
